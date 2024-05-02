@@ -3,7 +3,7 @@ const cors = require("cors")
 const app = express()
 const http = require("http").Server(app)
 const socketio  = require("socket.io")(http,{
-    cors:{origin:"http://localhost:5173"}
+    cors:{origin:"https://messaging-appliaction.vercel.app/"}
 })
 
 
